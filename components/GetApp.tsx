@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Button from './Button'
 import Image from 'next/image'
 
@@ -28,7 +28,7 @@ const GetApp = () => {
         </div>
 
         <div className="flex flex-1 items-center justify-center">
-          <Image src="/phones.png " alt="phones" width={200} height={600} />
+          <Image src="/phones.png " alt="phones" width={200} height={600} className='w-auto h-auto'/>
         </div>
       </div>
     </section>
