@@ -25,13 +25,7 @@ const Features = () => {
 
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
           <div className='relative'>
-            <Image
-              src="/camp.svg"
-              alt="camp"
-              width={50}
-              height={50}
-              className="absolute left-[-5px] top-[-28px] w-10 lg:w-[50px]"
-            />
+            
             <h2 className="bold-40 lg:bold-64">Our Services</h2>
           </div>
           <motion.ul 
